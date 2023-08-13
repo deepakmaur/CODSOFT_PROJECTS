@@ -10,21 +10,7 @@ string common="Number of task ";
     Todo* tail1=node1;
 
 
-void choice(){
-    //int n;
 
-    while(1){
-        cout<<"  **********Welcome to todo list**********  "<<endl;
-        cout<<" 1. ADD task "<<endl;
-        cout<<" 2. View task "<<endl;
-        cout<<" 3. Delete task "<<endl;
-    }
-
-    //cin>>n;
-    system("CLS");
-
-    
-}
 void addmore (){
     system("CLS");
     Todo* tail1=node1;
@@ -59,14 +45,12 @@ int main(){
         cout<<"  **********Welcome to todo list**********  "<<endl;
         cout<<" 1. Task Input and Mark it's Progress "<<endl;
         cout<<" 2. Add task and Mark it's Progress "<<endl;
-        cout<<" 2. View task "<<endl;
-        cout<<" 3. Remove task "<<endl;
+        cout<<" 3. View task "<<endl;
+        cout<<" 4. Remove task "<<endl;
 
     
 
-    // string common="Number of task ";
-    // string progress="Y/N";
-    // Todo* node1=new Todo(common,progress);
+    
 
     Todo* tail1=node1;
 
@@ -97,7 +81,7 @@ int main(){
         deafault :
                 cout<<" INVALID ENTRY "<<endl;
                 system("pause");
-                //goto jump;
+                
                 break;
     }
     return 0;
